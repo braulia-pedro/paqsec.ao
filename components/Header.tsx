@@ -21,8 +21,8 @@ export default function Header() {
         <Image 
           src="/LOGO_PAQSEC.png" 
           alt="Logotipo PAQSEC" 
-          width={120} 
-          height={40} 
+          width={200} 
+          height={60} 
           priority
         />
 

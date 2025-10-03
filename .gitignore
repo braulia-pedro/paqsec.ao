@@ -14,6 +14,11 @@
 !.yarn/versions
 >>>>>>> ae3bdeb (segundo commit pra deploy na vercel - site PAQSEC)
 
+
+# ignora rotas de API no Pages
+
+
+
 # testing
 /coverage
 

@@ -1,4 +1,4 @@
-Dia 1 — Setup base
+{/*Dia 1 — Setup base
 
  Criar projeto Next.js (app router se possível).
  Configurar TailwindCSS (já que tens UI pronta).
@@ -258,7 +258,7 @@ export default async function DashboardLayout({
 
   return (
     <div className="flex min-h-screen">
-      {/* Sidebar */}
+      {/* Sidebar 
       <aside className="w-64 bg-gray-100 p-4">
         <h2 className="text-lg font-bold mb-4">Painel</h2>
         <nav className="space-y-2">
@@ -268,7 +268,7 @@ export default async function DashboardLayout({
         </nav>
       </aside>
 
-      {/* Conteúdo */}
+      {/* Conteúdo 
       <main className="flex-1 p-6">{children}</main>
     </div>
   );
@@ -1458,7 +1458,7 @@ export default async function BlogPostPage({ params }: Props) {
           className="w-full h-80 object-cover rounded-lg my-6"
         />
       )}
-      {/* HTML já sanitizado no publish */}
+      {/* HTML já sanitizado no publish 
       <div dangerouslySetInnerHTML={{ __html: post.rendered_html }} />
     </article>
   );
@@ -1661,7 +1661,7 @@ export default async function AdminUsersPage() {
     <div className="max-w-4xl mx-auto py-12">
       <h1 className="text-2xl font-bold mb-6">Gestão de Usuários</h1>
 
-      {/* Form criar novo editor */}
+      {/* Form criar novo editor *
       <form
         action={async (formData) => {
           "use server";
@@ -1691,7 +1691,7 @@ export default async function AdminUsersPage() {
         </button>
       </form>
 
-      {/* Lista de usuários */}
+      {/* Lista de usuários *
       <table className="w-full border border-gray-200 rounded-lg overflow-hidden">
         <thead className="bg-gray-100 text-left">
           <tr>
@@ -1710,7 +1710,7 @@ export default async function AdminUsersPage() {
                 {new Date(u.created_at).toLocaleDateString("pt-BR")}
               </td>
               <td className="p-2 flex gap-2">
-                {/* Trocar role */}
+                {/* Trocar role *
                 <form
                   action={async () => {
                     "use server";
@@ -1725,7 +1725,7 @@ export default async function AdminUsersPage() {
                   </button>
                 </form>
 
-                {/* Reset senha */}
+                {/* Reset senha *
                 <form
                   action={async () => {
                     "use server";
@@ -2911,7 +2911,7 @@ export default async function DashboardLayout({
 
   return (
     <div className="flex min-h-screen">
-      {/* Sidebar */}
+      {/* Sidebar *
       <aside className="w-64 bg-gray-100 p-4">
         <h2 className="text-lg font-bold mb-4">Painel</h2>
         <nav className="space-y-2">
@@ -2921,7 +2921,7 @@ export default async function DashboardLayout({
         </nav>
       </aside>
 
-      {/* Conteúdo */}
+      {/* Conteúdo *
       <main className="flex-1 p-6">{children}</main>
     </div>
   );
@@ -3089,7 +3089,7 @@ export default async function DashboardLayout({
 
   return (
     <div className="flex min-h-screen">
-      {/* Sidebar */}
+      {/* Sidebar *
       <aside className="w-64 bg-gray-100 p-4">
         <h2 className="text-lg font-bold mb-4">Painel</h2>
         <nav className="space-y-2">
@@ -3101,7 +3101,7 @@ export default async function DashboardLayout({
         </nav>
       </aside>
 
-      {/* Conteúdo */}
+      {/* Conteúdo *
       <main className="flex-1 p-6">{children}</main>
     </div>
   );
@@ -3497,3 +3497,5 @@ Já mando o Day 3 full atualizado agora, e depois ajusto os próximos dias com b
 
 Nenhum ficheiro selecionadoNenhum ficheiro selecionado
 O ChatGPT pode cometer erros. Considere verificar informações importantes.
+
+*/}

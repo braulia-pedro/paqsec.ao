@@ -37,7 +37,7 @@ export default function SobrePage() {
     >
       {/* Cabeçalho da Página */}
       <div className="text-center space-y-4">
-        <h1 className="text-5xl md:text-5xl font-extrabold mt-20">
+        <h1 className="text-5xl md:text-5xl font-extrabold mt-25">
           <span className="text-white">Sobre a </span>
           <span className="bg-gradient-to-r from-[#0043FF] to-[#0029BB] bg-clip-text text-transparent">
             PAQSEC

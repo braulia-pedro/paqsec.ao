@@ -15,8 +15,8 @@ export default function Footer() {
           <Image
             src="/LOGO_PAQSEC.png"
             alt="PAQSEC"
-            width={150}
-            height={50}
+            width={155}
+            height={55}
             className="mb-4"
           />          
           <p className="text-sm text-gray-400 leading-relaxed">

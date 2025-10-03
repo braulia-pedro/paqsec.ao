@@ -13,7 +13,7 @@ export default function TrainingCareer() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="uppercase tracking-widest text-sm text-[#00AEFF] mb-3 mt-6" // <-- espaço extra no topo
+          className="uppercase tracking-widest text-sm text-[#00AEFF] mb-3 mt-8" // <-- espaço extra no topo
         >
           Programas Profissionais de Cibersegurança
         </motion.p>

@@ -78,7 +78,7 @@ const services = [
 
 export default function ServicesPage() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-b from-black via-[#0a0a0f] to-black text-white px-6 pt-20 pb-20">
+    <section className="relative min-h-screen bg-gradient-to-b from-black via-[#0a0a0f] to-black text-white px-6 pt-35 pb-20">
       <div className="max-w-6xl mx-auto">
 
         {/* Título */}

@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Facebook, Twitter, Instagram } from "lucide-react"
 export default function ContactPage() {
   return (
     <section className="relative min-h-screen bg-gradient-to-b from-black via-[#0a0a0f] to-black text-white px-6 py-20">
-      <div className="max-w-6xl mx-auto space-y-20 pt-10">
+      <div className="max-w-6xl mx-auto space-y-20 pt-15">
         {/* Título */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
