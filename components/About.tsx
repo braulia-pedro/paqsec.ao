@@ -9,7 +9,7 @@ export default function AboutSection() {
       id="sobre"
       className="relative pt-50 pb-24 px-6 text-center bg-gradient-to-b from-black via-blue-950 via-60% to-black"
     >
-      {/* Título */}
+      
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -20,7 +20,6 @@ export default function AboutSection() {
         Sobre a <span className="text-blue-400">PAQSEC</span>
       </motion.h2>
 
-      {/* Texto */}
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +34,6 @@ export default function AboutSection() {
         cibersegurança.
       </motion.p>
 
-      {/* Botão Ver mais */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -52,3 +50,4 @@ export default function AboutSection() {
     </section>
   );
 }
+
