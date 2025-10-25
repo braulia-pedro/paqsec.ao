@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function CTA() {
   return (
     <section className="relative w-full max-w-6xl mx-auto my-20 rounded-2xl overflow-hidden shadow-xl">
-      {/* Imagem de fundo */}
+      
       <div className="relative w-full h-[313px]">
         <Image
           src="/slides/cta.jpg"
@@ -18,7 +18,6 @@ export default function CTA() {
           priority
         />
 
-        {/* Overlay com gradiente radial (foco no centro) */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
@@ -44,7 +43,6 @@ export default function CTA() {
         />
       </div>
 
-      {/* Conteúdo responsivo alinhado à esquerda */}
       <div className="absolute inset-0 flex items-center justify-center md:justify-start px-6 md:pl-16 text-center md:text-left">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
