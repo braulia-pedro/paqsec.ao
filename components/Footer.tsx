@@ -69,10 +69,11 @@ export default function Footer() {
 
       </div>
 
-      {/* Linha final */}
+      
       <div className="mt-12 pt-6 border-t border-white/10 text-center text-xs text-gray-500">
         © {new Date().getFullYear()} PAQSEC. Todos os direitos reservados.
       </div>
     </footer>
   );
 }
+
